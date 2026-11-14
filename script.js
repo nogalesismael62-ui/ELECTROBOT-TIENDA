@@ -98,6 +98,40 @@ features:"• Diámetro de 5mm.\n• Diferentes colores.\n• Tiene polaridad po
 usage:"Sirve para indicar estados de funcionamiento, crear señales luminosas y realizar proyectos electrónicos."
 }
 ];
+// CARGAR PRODUCTOS DESDE SUPABASE
+async function cargarProductos() {
+  try {
+    const { data, error } = await supabaseClient
+      .from("productos")
+      .select("*")
+      .eq("activo", true);
+
+    if (error) throw error;
+
+    if (data && data.length > 0) {
+      products.length = 0;
+
+      data.forEach(p => {
+        products.push({
+          id: p.id,
+          name: p.nombre,
+          cat: p.categoria || "Otros",
+          price: Number(p.precio),
+          icon: "📦",
+          img: p.imagen_url || "",
+          description: p.descripcion || "",
+          features: "",
+          usage: ""
+        });
+      });
+
+      render(products);
+      console.log("Productos cargados desde Supabase");
+    }
+  } catch (error) {
+    console.error("Error al cargar productos:", error);
+  }
+}
 
 
 let cart = [];
@@ -416,3 +450,4 @@ function toast(msg) {
 
 // INICIAR ROBOEDU
 render();
+cargarProductos();
