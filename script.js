@@ -4,7 +4,7 @@ const products = [
 {
 id:1,name:"Sensor ultrasónico HC-SR04",
 cat:"Sensores",price:35,icon:"📡",
-img:"Img/Screenshot_20261109_213941_ChatGPT.jpg",
+img:"Screenshot_20261109_213941_ChatGPT.jpg",
 description:"Sensor electrónico que utiliza ondas ultrasónicas para medir distancias.",
 features:"• Alimentación: 5V.\n• Medición sin contacto.\n• Cuatro pines de conexión.",
 usage:"Sirve para detectar obstáculos y medir distancias. Se utiliza en robots que evitan objetos."
@@ -12,7 +12,7 @@ usage:"Sirve para detectar obstáculos y medir distancias. Se utiliza en robots 
 {
 id:2,name:"Arduino UNO",
 cat:"Microcontroladores",price:95,icon:"💻",
-img:"Img/Screenshot_20261109_213952_ChatGPT.jpg",
+img:"Screenshot_20261109_213952_ChatGPT.jpg",
 description:"Placa electrónica programable basada en el microcontrolador ATmega328P.",
 features:"• 14 pines digitales.\n• 6 entradas analógicas.\n• Conexión USB.\n• Compatible con Arduino IDE.",
 usage:"Sirve para crear proyectos de robótica, automatización y control de sensores, luces y motores."
@@ -20,7 +20,7 @@ usage:"Sirve para crear proyectos de robótica, automatización y control de sen
 {
 id:3,name:"Motor DC",
 cat:"Motores",price:28,icon:"⚙️",
-img:"Img/Screenshot_20261109_214018_ChatGPT.jpg",
+img:"Screenshot_20261109_214018_ChatGPT.jpg",
 description:"Motor eléctrico que transforma energía eléctrica en movimiento giratorio.",
 features:"• Corriente continua.\n• Movimiento rotativo.\n• Velocidad según voltaje y modelo.",
 usage:"Sirve para dar movimiento a pequeños vehículos, robots y mecanismos electrónicos."
@@ -28,7 +28,7 @@ usage:"Sirve para dar movimiento a pequeños vehículos, robots y mecanismos ele
 {
 id:4,name:"Servo SG90",
 cat:"Actuadores",price:32,icon:"🔧",
-img:"Img/Screenshot_20261109_214109_ChatGPT.jpg",
+img:"Screenshot_20261109_214109_ChatGPT.jpg",
 description:"Servomotor compacto que permite controlar posiciones angulares.",
 features:"• Alimentación aproximada de 4.8 a 6V.\n• Control PWM.\n• Giro aproximado de 180°.",
 usage:"Sirve para mover brazos robóticos, compuertas y mecanismos que necesitan posiciones controladas."
@@ -36,7 +36,7 @@ usage:"Sirve para mover brazos robóticos, compuertas y mecanismos que necesitan
 {
 id:5,name:"Kit Robótica Educativa",
 cat:"Kits",price:180,icon:"🤖",
-img:"Img/Screenshot_20261109_214127_ChatGPT.jpg",
+img:"Screenshot_20261109_214127_ChatGPT.jpg",
 description:"Conjunto de componentes para aprender electrónica y robótica.",
 features:"• Componentes electrónicos.\n• Material educativo.\n• Ideal para prácticas.",
 usage:"Sirve para construir robots y aprender programación, electrónica y automatización."
@@ -44,7 +44,7 @@ usage:"Sirve para construir robots y aprender programación, electrónica y auto
 {
 id:6,name:"Protoboard",
 cat:"Otros",price:25,icon:"🔌",
-img:"Img/Screenshot_20261109_214138_ChatGPT.jpg",
+img:"Screenshot_20261109_214138_ChatGPT.jpg",
 description:"Placa reutilizable para montar circuitos electrónicos sin soldadura.",
 features:"• Conexiones reutilizables.\n• Diferentes tamaños.\n• Fácil montaje.",
 usage:"Sirve para realizar pruebas de circuitos electrónicos antes de construirlos definitivamente."
@@ -52,7 +52,7 @@ usage:"Sirve para realizar pruebas de circuitos electrónicos antes de construir
 {
 id:7,name:"Arduino Nano ATmega328P",
 cat:"Microcontroladores",price:50,icon:"🔵",
-img:"Img/Screenshot_20261109_214200_ChatGPT.jpg",
+img:"Screenshot_20261109_214200_ChatGPT.jpg",
 description:"Placa de desarrollo compacta basada en ATmega328P.",
 features:"• Microcontrolador ATmega328P.\n• Pines digitales y analógicos.\n• Tamaño compacto.",
 usage:"Sirve para controlar sensores, motores y circuitos en proyectos pequeños de robótica."
@@ -60,7 +60,7 @@ usage:"Sirve para controlar sensores, motores y circuitos en proyectos pequeños
 {
 id:8,name:"Switch con fusible 15A",
 cat:"Interruptores y protección",price:15,icon:"🔘",
-img:"Img/Screenshot_20261109_214209_ChatGPT.jpg",
+img:"Screenshot_20261109_214209_ChatGPT.jpg",
 description:"Interruptor eléctrico con portafusible integrado.",
 features:"• Corriente nominal indicada: 15A.\n• Tensión indicada: 110/220V AC.\n• Portafusible incorporado.",
 usage:"Sirve para encender y apagar equipos eléctricos y alojar un fusible de protección. Debe utilizarse respetando las especificaciones del fabricante."
@@ -68,7 +68,7 @@ usage:"Sirve para encender y apagar equipos eléctricos y alojar un fusible de p
 {
 id:9,name:"Diodo Zener 1N4740A 10V",
 cat:"Componentes electrónicos",price:2,icon:"⚡",
-img:"Img/Screenshot_20261109_214240_ChatGPT.jpg",
+img:"Screenshot_20261109_214240_ChatGPT.jpg",
 description:"Componente semiconductor utilizado para regular tensión.",
 features:"• Tensión Zener: 10V.\n• Potencia nominal: 1W.\n• Encapsulado axial.",
 usage:"Sirve para estabilizar voltajes en circuitos electrónicos y proteger determinadas etapas de alimentación."
@@ -76,7 +76,7 @@ usage:"Sirve para estabilizar voltajes en circuitos electrónicos y proteger det
 {
 id:10,name:"Módulo Bluetooth HM-10",
 cat:"Comunicación",price:45,icon:"📶",
-img:"Img/Screenshot_20261109_214250_ChatGPT.jpg",
+img:"Screenshot_20261109_214250_ChatGPT.jpg",
 description:"Módulo de comunicación inalámbrica Bluetooth Low Energy.",
 features:"• Tecnología BLE.\n• Comunicación serial UART.\n• Conexión inalámbrica.",
 usage:"Sirve para comunicar proyectos Arduino con celulares y otros dispositivos compatibles con Bluetooth BLE."
@@ -84,7 +84,7 @@ usage:"Sirve para comunicar proyectos Arduino con celulares y otros dispositivos
 {
 id:11,name:"Servomotor DC",
 cat:"Actuadores",price:60,icon:"⚙️",
-img:"Img/Screenshot_20261109_214324_ChatGPT.jpg",
+img:"Screenshot_20261109_214324_ChatGPT.jpg",
 description:"Actuador electromecánico que produce movimiento controlado.",
 features:"• Alimentación DC según modelo.\n• Movimiento mecánico.\n• Diferentes tamaños y aplicaciones.",
 usage:"Sirve para realizar movimientos controlados en mecanismos y sistemas de automatización."
@@ -92,7 +92,7 @@ usage:"Sirve para realizar movimientos controlados en mecanismos y sistemas de a
 {
 id:12,name:"LED 5MM",
 cat:"Componentes electrónicos",price:1,icon:"💡",
-img:"Img/Screenshot_20261109_214338_ChatGPT.jpg",
+img:"Screenshot_20261109_214338_ChatGPT.jpg",
 description:"Diodo emisor de luz de tamaño compacto.",
 features:"• Diámetro de 5mm.\n• Diferentes colores.\n• Tiene polaridad positiva y negativa.",
 usage:"Sirve para indicar estados de funcionamiento, crear señales luminosas y realizar proyectos electrónicos."
@@ -293,7 +293,7 @@ function showFavorites() {
 function showProfile() {
   document.getElementById("modalBox").innerHTML = `
     <h2>👤 Mi perfil</h2>
-    <p>Bienvenido a RoboEdu.</p>
+    <p>Bienvenido a ELECTRO BOT.</p>
     <p style="margin-top:10px">
       Aquí podrás gestionar tus datos, pedidos y favoritos.
     </p>
